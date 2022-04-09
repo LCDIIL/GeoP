@@ -1,0 +1,245 @@
+*{
+    margin:0;
+}
+
+.container{
+    font-family: Georgia;
+    font-size: 15px;
+}
+
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 7px;
+}
+
+.fon{
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    right: 0;
+    bottom: 0;
+}
+
+/*main======================*/
+
+
+/* First Information ==============*/
+.first_information{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.fossils{
+    height: fit-content;
+    width:30%;
+    position: relative;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.76);
+    padding: 15px;
+    color: black;
+    margin: 3.5px;
+}
+
+h3{
+    color:#a52d1f;
+}
+
+.fossils-img{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    background: rgba(255, 255, 255, 0.76);
+    padding: 10px;
+    color: black;
+    border-radius: 25px;
+    margin: 3.5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.first_line_fossil_img, .second_line_fossil_img, .third_line_fossil_img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.fossil-img{
+    width: 150px;
+    height: 88px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.fossil-img:hover{
+    transform: scale(1.2);
+}
+
+figure{
+    margin: 5px;
+    text-align: center;
+    height: fit-content;
+}
+
+
+
+/*Second Information ==================*/
+
+
+.second_information{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.prom{
+    border-radius: 25px;
+    position: relative;
+    background: rgb(133 133 133 / 90%);
+    padding: 15px;
+    color: black;
+    margin: 3.5px;
+    text-align: center;
+}
+
+.Ural-map{
+    position: relative;
+    border-radius: 25px;
+    background: rgb(133 133 133 / 90%);
+    padding: 15px;
+    color: black;
+    margin: 3.5px;
+    height: fit-content;
+}
+
+.Ural-map-img{
+    height: 223px;
+    width: 200px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.Ural-map-img:hover{
+    transform: scale(2.4);
+}
+
+.prom-imgs, .APK-imgs{
+    border-radius: 25px;
+    background: rgb(133 133 133 / 90%);
+    padding: 15px;
+    color: black;
+    margin: 3.5px;
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+}
+
+.prom_img{
+    width: 150px;
+    height: 88px;
+    border-radius: 10px;
+    transition: 0.2s linear;
+}
+
+.prom_img:hover{
+    transform: scale(2);
+}
+
+.first_line_prom_imgs, .second_line_prom_imgs, .first_line_APK_imgs, .second_line_APK_imgs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Third Information =====================*/
+.third_information{
+    margin-top: 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.prom-cities{
+    border-radius: 25px;
+    position: relative;
+    background: rgba(53, 48, 48, 0.8);
+    padding: 15px;
+    color: white;
+    margin: 3.5px;
+    text-align: center;
+    width: 50%;
+    height: fit-content;
+}
+
+.prom-cities-img{
+    width: 50%;
+    height: fit-content;
+    position: relative;
+    background: rgba(53, 48, 48, 0.8);
+    padding: 10px;
+    color: white;
+    border-radius: 25px;
+    margin: 3.5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.prom-city-img{
+    width: 100%;
+    border-radius: 15px;
+    height: 206px;
+    transition: 0.2s linear;
+}
+
+.prom-city-img:hover{
+    transform: scale(1.15);
+}   
+
+.prom-figure{
+    margin-top: 30px;
+    width:47%;
+}
+
+
+
+/* header ===================*/
+.header__inner{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+.header-title{
+    width: cover;
+    border: 3px solid black;
+    position: relative;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.76);
+    padding: 20px;
+    color: black;
+}
+
+.nuv-elments{
+    position: relative;
+    border-radius: 70px;
+    background: rgba(255, 255, 255, 0.76);
+    margin: 20px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: brown;
+    border: 2px solid black;
+    opacity: .6;
+    transition: opacity .1s linear;
+}
+
+.nuv-elments:hover{
+    opacity: 1;
+}

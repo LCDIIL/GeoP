@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 7px;
+}
+
+.fon{
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    bottom: -120px;
+    left: 0;
+}
+
+.container{
+    font-family: Georgia;
+    font-size: 15px;
+}
+
+h3{
+    color:rgb(255, 145, 0);
+}
+
+figure{
+    margin: 5px;
+    text-align: center;
+    height: fit-content;
+}
+
+/* Header================= */
+
+.header_inner{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+.header_title{
+    width: cover;
+    border: 3px solid black;
+    position: relative;
+    border-radius: 25px;
+    background: rgba(0, 255, 234, 0.842);
+    padding: 20px;
+    color: black;
+}
+
+.nuv-elments{
+    position: relative;
+    border-radius: 70px;
+    background: rgba(0, 255, 234, 0.842);
+    margin: 20px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: brown;
+    border: 2px solid black;
+    opacity: .6;
+    transition: opacity .1s linear;
+}
+
+.nuv-elments:hover{
+    opacity: 1;
+}
+
+/* main==================== */
+
+.first_information{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.population{
+    position: relative;
+    background-color: rgba(0, 255, 234, 0.842);
+    border-radius: 25px;
+    color:black;
+    padding: 15px;
+    margin: 3.5px;
+    height:fit-content;
+    width: 30%;
+}
+
+.peoples-map{
+    position: relative;
+    background-color: rgba(0, 255, 234, 0.842);
+    border-radius: 25px;
+    color:black;
+    padding: 15px;
+    margin: 3.5px;
+}
+
+.peoples-map-img{
+    width: 300px;
+    border-radius: 10px;
+    transition: 0.2s linear;
+    height: 400px;
+}
+
+.peoples-map-img:hover{
+    transform: scale(1.5);
+}
+
+.second_information{
+    margin-top:60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.peoples{
+    position: relative;
+    background-color: rgba(0, 255, 234, 0.842);
+    border-radius: 25px;
+    color:black;
+    padding: 15px;
+    margin: 3.5px;
+    text-align: center;
+    width:90%;
+}
+
+.peoples-imgs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.para_people_imgs{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(0, 255, 234, 0.842);
+    border-radius: 25px;
+    color:black;
+    padding: 15px;
+    margin: 3.5px;
+}
+
+.peoples-img{
+    width:250px;
+    border-radius: 10px;
+    transition: 0.2s linear;
+    height: 200px;
+}
+
+.peoples-img:hover{
+    transform: scale(1.2);
+}
