@@ -1,0 +1,36 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Урал</title>
+    <link rel="stylesheet" href="{% static 'ED/styles/index.css' %}">
+</head>
+<body>
+
+    <img class="fon" src="{% static 'ED/img/index_fon.jpg' %}" alt="">
+    
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header_title"><h1>Урал</h1></div>
+                <a class="next-button" href="{% url 'second_page' %}">Next</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-block">
+        <div clas="container">
+            <div class="main_block_inner">
+                <nuv class="nuv">
+                    <a class="nuv_link" href="{% url 'second_page' %}">Промышленность Урала</a>
+                    <a class="nuv_link" href="{% url 'third_page' %}">Народы Урала</a>
+                    <a class="nuv_link" href="{% url 'fourth_page' %}">Почему Урал кривой</a>
+                    <a class="nuv_link" href="{% url 'fifth_page' %}">Факты</a>
+                </nuv>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>

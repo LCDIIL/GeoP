@@ -1,0 +1,196 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Промышленность Урала</title>
+    <link rel="stylesheet" href="{% static 'ED/styles/second_page.css' %}">
+</head>
+<body>
+    <img src='{% static "ED/img/index_ural.jpg" %}' class="fon">
+
+
+    <!-- Header======= -->
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a class="nuv-elments" href="{% url 'index.html' %}">Back </a>
+                <div class="header-title">
+                    <h1>Промышленность Урала</h1>
+                </div>
+                <a class="nuv-elments" href="{% url 'third_page' %}">Next</a>
+            </div>
+        </div>
+    </header>
+    <!-- /header====== -->
+
+
+    <!-- Main======= -->
+    <main class="main_block">
+        <div class="container">
+            <div class="first_information">
+                <div class="fossils">
+                    <h3>Полезные ископаемые Урала</h3>
+                    <p>
+                        Уральские горы протянулись с севера на юг более чем на две тысячи километров.
+                        Они оказались богатой природной кладовой, одной из самых богатейших в РФ.
+                        На Урале найдено около тысячи различных видов минерального сырья, более 12 000 бассейнов полезных ископаемых, почти все элементы Таблицы Менделеева.
+                        До пятидесяти пяти различных полезных ископаемых добывается сегодня на Урале.
+                        <b>В основном это</b>: <em>каменный и бурый уголь, марганцевые, железные, хромовые, никелевые, алюминиевые и медные руды, калийные и поваренные соли, мрамор, золото, графит, алмаз, сера, асбест и, конечно, нефть и природный газ</em>.
+                        <br>
+                        На Урале также встречается множество <b>драгоценных камней</b>: <em>изумруд, топаз, розовый кварц, аметист, александрит</em> и др. Они принесли краю большую славу.
+                        Большинство видов драгоценных камней образовалось вследствие вулканической активности, но некоторые, такие как: <em>малахит, яшма, циркон, опал</em>, образуется путем наслоения твердых пород.
+                    </p>
+                </div>
+                <div class="fossils-img">
+                    <div class="first_line_fossil_img">
+                        <figure>
+                            <img class="fossil-img" src="{% static 'ED/img/second_page_mednaya-ruda.jpg' %}" alt="Фото медной руды">
+                            <figcaption><em>Медная руда</em></figcaption>
+                        </figure>
+                        <figure>
+                            <img class="fossil-img" src="{% static 'ED/img/second_page_mramor.jpg' %}" alt="Фото мрамора">
+                            <figcaption><em>Мрамор</em></figcaption>
+                        </figure>
+                    </div>
+                    <div class="second_line_fossil_img">
+                        <figure>
+                            <img class="fossil-img" src="{% static 'ED/img/second_page_ametist.jpg' %}" alt="Фото аметиста">
+                            <figcaption><em>Аметист</em></figcaption>
+                        </figure>
+                        <figure>
+                            <img class="fossil-img" src="{% static 'ED/img/second_page_malahit.jpg' %}" alt="Фото малахита">
+                            <figcaption><em>Малахит</em></figcaption>
+                        </figure>
+                    </div>
+                    <div class="third_line_fossil_img">
+                        <figure>
+                            <img class="fossil-img" src="{% static 'ED/img/second_page_kal_salt.jpg' %}" alt="Фото калийной соли">
+                            <figcaption><em>Калийная соль</em></figcaption>
+                        </figure>
+                        <figure>
+                            <img class="fossil-img" src="{% static 'ED/img/second_page_kamen_ugol.jpg' %}" alt="Фото каменного угля">
+                            <figcaption><em>Каменный уголь</em></figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div class="second_information">
+                <div class="prom">
+                    <h3>Промышленность Урала</h3>
+                    <p>
+                        Урал занимает центральное положение в стране.
+                        Он входит в состав <b>Западной экономической зоны</b> России, граничит с районами <b>Восточной зоны</b>, из-за этого сбыт его продукции происходит как в западных, так и в восточных районах страны и он имеет доступ к разнообразным сырьевым и топливно-энергетическим ресурсам.
+                        Всё вышесказанное является причиной расположения на Урале большого количества <b>отраслей промышленности:</b>
+                        <em>чёрная и цветная металлургия, машиностроение, металлообработка, производство строительных материалов, переработка древесины, химическая, лёгкая, пищевая и нефте- и газоперерабатывающая промышленности.</em>
+                        Урал производит от 20 до 40 % общероссийского выпуска металлорежущих станков, экскаваторов, нефтеаппаратуры, химического оборудования и машин для сельского хозяйства, свыше 35 % чугуна, около 15 % деловой древесины и пиломатериалов, почти 20 % бумаги.
+                        В районе также хорошо развита электроэнергетика:
+                        <em>Пермская, Сакмарская, Ириклинская, Троицкая, Южноуральская, Кармановская, Рефтинская, Красногорская, Верхне-Тагильская</em> <b>тепловые электростанции</b>, <em>Воткинская, Камская, Нугушская, Аргазинская, Верхнеуральская</em> <b>гидроэлектростанции</b> и <em>Белоярская</em> <b>атомная электростанция</b>> располагаются вблизи крупных городов.
+                        <br>Достаточно хорошо развит <b>Агропромышленный комплекс:</b>> 
+                        видов сельского хозяйства немного, но под основные направления выделены большие территории.
+                        <b>Основными направлениями сельского хозяйства являются:</b> <em>молочное и молочно-мясное скотоводство, свиноводство, выращивание картофеля, сахарной свеклы, подсолнечников, зерновых культур (рожь, пшеница, овёс, гречиха)</em>, а также <em>лесные промыслы и лесозаготовка.</em>
+                        Для гористой местности характерно животноводство и лесные промыслы, равнинной же местности выращивают культурные растения.
+                    </p>
+                </div>
+                <div class="prom-imgs">
+                    <b>Некоторые отрасли промышленности</b>
+                    <div class="first_line_prom_imgs">
+                        <figure>
+                            <img class="prom_img" src="{% static 'ED/img/second_page_mech.jpg' %}" alt="Машиностроение">
+                            <figcaption><em>Машиностроение</em></figcaption>
+                        </figure>
+                        <figure>
+                            <img class="prom_img" src="{% static 'ED/img/second_page_neft.jpg' %}" alt="Нефтедобыча">
+                            <figcaption><em>Нефтедобыча</em></figcaption>
+                        </figure>
+                    </div>
+                    <div class="second_line_prom_imgs">
+                        <figure>
+                            <img class="prom_img" src="{% static 'ED/img/second_page_easy_prom.jpg' %}" alt="Легкая промышленность">
+                            <figcaption><em>Легкая пром.</em></figcaption>
+                        </figure>
+                        <figure>
+                            <img class="prom_img" src="{% static 'ED/img/second_page_black_metall.jpg' %}" alt="Чёрная металлургия">
+                            <figcaption><em>Чёрная металлургия</em></figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="Ural-map">
+                    <figure>
+                        <img class="Ural-map-img" src="{% static 'ED/img/second_page_Ural_map.jpg' %}" alt="Карта Урала">
+                        <figcaption><em>Карта Урала</em></figcaption>
+                    </figure>
+                </div>
+                <div class="APK-imgs">
+                    <b>Некоторые виды АПК</b>
+                    <div class="first_line_APK_imgs">
+                        <figure>
+                            <img class="prom_img" src="{% static 'ED/img/second_page_scot.jpg' %}" alt="Скотоводство">
+                            <figcaption><em>Скотоводство</em></figcaption>
+                        </figure>
+                        <figure>
+                            <img class="prom_img" src="{% static 'ED/img/second_page_wheet.jpg' %}" alt="Зерновые культуры">
+                            <figcaption><em>Зерновые культуры</em></figcaption>
+                        </figure>
+                    </div>
+                    <div class="second_line_APK_imgs">
+                        <figure>
+                            <img class="prom_img" src="{% static 'ED/img/second_page_sunflowers.jpg' %}" alt="Подсолнечники">
+                            <figcaption><em>Подсолнечники</em></figcaption>
+                        </figure>
+                        <figure>
+                            <img class="prom_img" src="{% static 'ED/img/second_page_wood.jpg' %}" alt="Лесозаготовка">
+                            <figcaption><em>Лесозаготовка</em></figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div class="third_information">
+                <div class="prom-cities">
+                    <h3>Крупнейшие промышленные города Урала</h3>
+                    <p>
+                        <b>Екатеринбург</b> – главный промышленный центр Урала.
+                        Сейчас на территории города и в промышленных районах располагается свыше 200 промышленных предприятий.
+                        <b>Основные специализации:</b> <em>металлургия и металлообработка, производство пищевой продукции, машиностроение и выпуск оборудования, производство химической продукции, производство целлюлозно-бумажной продукции.</em>
+                        Одним из самых знаменитых предприятий остается <b>«Уралмаш»</b> — организация, ориентированная на выпуск машин и занимающая лидирующее положение в России в отрасли машиностроения, обеспечивая крупнейшие компании РФ и поставляя оборудование для предприятий энергетической, металлургической и горнодобывающей отраслей в такие страны, как Болгария, Индия, Китай и многие другие.
+                        <br><b>Челябинск</b> – второй промышленный гигант Урала.
+                        Его доля во всей промышленности России приближается к 40%.
+                        Основной специализацией города остается <em>металлургия</em>, второстепенную, но важную роль предприятия играют в <em>машиностроении.</em>
+                        Здесь находится электрометаллургический комбинат, который производит больше всего в стране ферросплавов.
+                        На металлургическом комбинате производится нержавеющая сталь, которая распространяется во все регионы.
+                        <br><b>Уфа</b> – одна из нефтяных столиц России.
+                        Сейчас здесь располагаются одни из важнейших предприятий.
+                        В их числе <b>«Башнефть»</b>, которая представляет <em>нефтеперерабатывающую промышленность</em>.
+                        Нефтеперерабатывающий комплекс располагает современным оборудованием, включает несколько сегментов, ориентированных на производство нефтепродуктов и отдельные подразделения сервисного обслуживания.
+                        <br><b>Пермь</b> – промышленный, культурный центр Урала. Помимо большого количества отраслей промышленности (<em>машиностроение, переработка древесины, химическая, пищевая промышленности</em> и др.), здесь находятся 13 музеев, включая Пермскую государственную художественную галерею.
+                        <br>Также эти города являются крупными транспортными узлами, соединяющими западную и азиатскую часть России. Такое положение позволяет району отправлять продукции из более развитой западной части в менее развитую восточную, и наоборот.
+                    </p>
+
+                </div>
+                <div class="prom-cities-img">
+                    <figure class="prom-figure">
+                        <img class="prom-city-img" src="{% static 'ED/img/second_page_CatrinBurg.jpg' %}" alt="Фото Екатеринбурга">
+                        <figcaption><em>Екатеринбург</em></figcaption>
+                    </figure>
+                    <figure class="prom-figure">
+                        <img class="prom-city-img" src="{% static 'ED/img/second_page_Chel.jpg' %}" alt="Фото Челябинска">
+                        <figcaption><em>Челябинск</em></figcaption>
+                    </figure>
+                    <figure class="prom-figure">
+                        <img class="prom-city-img" src="{% static 'ED/img/second_page_Ufa.jpg' %}" alt="Фото Уфы">
+                        <figcaption><em>Уфа</em></figcaption>
+                    </figure>
+                    <figure class="prom-figure">
+                        <img class="prom-city-img" src="{% static 'ED\img\second_page_Perm.jpg' %}" alt="Фото Перми">
+                        <figcaption><em>Пермь</em></figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- /Main============= -->
+
+</body>
+</html>

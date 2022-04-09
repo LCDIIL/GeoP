@@ -1,0 +1,95 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Народы Урала</title>
+    <link rel="stylesheet" href="{% static 'ED/styles/third_page.css' %}">
+</head>
+<body>
+    <img src='{% static "ED/img/third_page_fon.jpg" %}' class="fon">
+
+
+    <!-- Header========== -->
+    <header class="header">
+        <div class="container">
+            <div class="header_inner">
+                <a class="nuv-elments" href="{% url 'second_page' %}">Back</a>
+                <div class="header_title"><h1>Уральские обитатели</h1></div>
+                <a class="nuv-elments" href="{% url 'fourth_page' %}">Next</a>
+            </div>
+        </div>
+    </header>
+    <!-- /Header============ -->
+
+
+    <!-- Main=========== -->
+    <main class="main_block">
+        <div class="container">
+            <div class="first_information">
+                <div class="population">
+                    <h3>Население</h3>
+                    <p>
+                        <b>Урал</b> – граница между двумя цивилизациями и культурами. 
+                        За свою историю он повидал множество народов: <em>китайцев, финнов, греков</em> и много др.
+                        Наибольшее влияние оказали <em>русские</em>, которых сейчас на Урале 80% от всего населения. 
+                        Урал граничит со многими <b>районами России:</b> <em>Поволжьем, Волго-Вятским, Запададной сибирью, Европейским севером</em>, а на юге граничит с Казахстаном, и сам Урал является границей между Азией и Европой. 
+                        <br>Население Урала составляет около <b>19,5</b> млн человек. 
+                        Средняя плотность населения – 25 человек на км<sup>2</sup>, но население размещено неравномерно.
+                        <br><b>Урал</b> – один из самых высокоурбанизированных регионов страны. 
+                        Большинство людей проживает в городах, которых больше 140. 
+                        Доля городского населения постепенно приближается к <b>75%</b>, что очень высокий показатель. 
+                        Центральным городом принято считать Екатеринбург, но есть и другие <b>города миллионники:</b> <em>Уфа, Челябинск и Пермь</em>.
+                    </p>
+                </div>
+                <div class="peoples-map">
+                    <figure>
+                        <img class="peoples-map-img" src="{% static 'ED/img/third_page_people_map.png' %}" alt="Карта народов Урала">
+                        <figcaption><em>Карта народов Урала</em></figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="second_information">
+                <div class="peoples">
+                    <h3>Народы Урала</h3>
+                    <p>
+                        <b>Урал</b> – многонациональный экономический район, заселение района происходило через Сибирь и позже через миграцию европейской части.
+                        На данный момент <b>80%</b> населения - это <em>русские</em>, но на Урале преобладают и другие народы.
+                        Например в Башкирии проживают большинство народов из <b>тюркской группы</b>, исповедующие <b>ислам:</b> <em>башкиры</em> - <b>22%</b> и <em>татары</em> - <b>28%</b>. 
+                        Проживают они в основном в пределах республики <b>Башкортостан</b> и в смежных областях и республиках.
+                        <em>Удмурты</em> – народ <b>финно-угорской группы</b>, проживающие в основном в <b>Удмуртии</b> - <b>70%</b>.
+                        <em>Коми-пермяки</em> – народ <b>финно-угорской группы</b>, проживают в <b>Коми-пермяцком округе</b> - <b>60%</b>.
+                        Также на территории Уральского экономического района проживают <em>чуваши, мордва, марийцы</em>, а на границе с Казахстаном проживают <em>казахи</em>.
+                        <br>Народы на Урале исповедуют две мировые религии: <b>православие</b> и <b>ислам</b>.
+                    </p>
+                </div>
+                <div class="peoples-imgs">
+                    <div class="para_people_imgs">
+                        <figure>
+                            <img class="peoples-img" src="{% static 'ED/img/third_page_komi.jpg' %}" alt="Коми-пермяки">
+                            <figcaption><em>Коми-пермяки</em></figcaption>
+                        </figure>
+                        <figure>
+                            <img class="peoples-img" src="{% static 'ED/img/third_page_russian.jpg' %}" alt="Русские">
+                            <figcaption><em>Русские</em></figcaption>
+                        </figure>
+                    </div>
+                    <div class="para_people_imgs">
+                        <figure>
+                            <img class="peoples-img" src="{% static 'ED/img/third_page_udmurt.jpg' %}" alt="Удмурты">
+                            <figcaption><em>Удмурты</em></figcaption>
+                        </figure>
+                        <figure>
+                            <img class="peoples-img" src="{% static 'ED/img/third_page_bashk.jpg' %}" alt="Башкиры">
+                            <figcaption><em>Башкиры</em></figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Main============== -->
+</body>
+</html>
